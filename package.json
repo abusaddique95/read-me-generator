@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/abusaddique95/read-me-generator/issues"
   },
-  "homepage": "https://github.com/abusaddique95/read-me-generator#readme"
+  "homepage": "https://github.com/abusaddique95/read-me-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }

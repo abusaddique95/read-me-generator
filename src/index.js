@@ -1,5 +1,7 @@
-const questions [
-{
+const inquirer = require("inquirer");
+
+const questions = [
+  {
     type: "input",
     name: "title",
     message: "What is the title of your project?",
@@ -45,4 +47,10 @@ const questions [
     name: "Email Address",
     message: "Please enter your email address",
   },
-]
+];
+
+const init = async () => {
+  const answers = await inquirer.prompt(questions);
+};
+
+init();

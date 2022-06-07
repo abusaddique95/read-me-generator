@@ -52,13 +52,6 @@ const questions = [
 
 const fs = require("fs");
 
-const init = async () => {
-  const answers = await inquirer.prompt(questions);
-};
-
-// call the function
-init();
-
 // generating the read me answers
 const generateAnswers = (answers) => {
   {
@@ -67,54 +60,61 @@ const generateAnswers = (answers) => {
     )})`;
   }
 
+  // ## Table of Contents
 
-## Table of Contents
+  // - Description(#description)
+  // - Installation(#installation)
+  // - Usage(#usage)
+  // - License(#license)
+  // - Contributing(#contributing)
+  // - Tests(#tests)
+  // - Questions(#questions)
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+  // ## Description
 
-## Description
- 
-${answers.description}
+  // ${answers.description}
 
-## Installation
- 
-Please follow the instructions below to clone this project:
-\`\`\`\
- 
-${answers.installation}
-  
-\`\`\`\
+  // ## Installation
 
-## Usage
-${answers.usage}
+  // Please follow the instructions below to clone this project:
 
-## License
-${answers.license}
-  
-## Contributing
- 
-${answers.contributing}
- 
-## Tests
+  // \`\`\`\
+  // ${answers.installation}
+  // \`\`\`\
 
-Please follow the instructions below:
+  // ## Usage
+  // ${answers.usage}
 
-\`\`\`\
-${answers.test}
-\`\`\`\
+  // ## License
+  // ${answers.license}
 
-## Author
-${answers.fullName}
+  // ## Contributing
 
-## Questions
+  // ${answers.contributing}
 
-Please contact me if you have any queries on my email: ${answers.email};
+  // ## Tests
 
-Visit my GitHub profile [here](https://github.com/${answers.userName})`;
+  // Please follow the instructions below:
+
+  // \`\`\`\
+  // ${answers.test}
+  // \`\`\`\
+
+  // ## Author
+  // ${answers.fullName}
+
+  // ## Questions
+
+  // Please contact me if you have any queries on my email: ${answers.email};
+
+  // Visit my GitHub profile [here](https://github.com/${answers.userName})`;
 };
+
+const init = async () => {
+  const answers = await inquirer.prompt(questions);
+  const readMe = generateAnswers(answers);
+  fs.writeFileSync("./myReadMe.md", readMe);
+};
+
+// call the function
+init();

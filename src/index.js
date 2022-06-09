@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
 
 // array of questions
 const questions = [
@@ -50,70 +51,68 @@ const questions = [
   },
 ];
 
-const fs = require("fs");
-
-// generating the read me answers
-const generateAnswers = (answers) => {
-  {
-    return `# ${answers.title} ![alt text](${encodeURI(
-      `https://img.shields.io/badge/${answers.license}-License-green`
-    )})`;
-  }
-
-  // ## Table of Contents
-
-  // - Description(#description)
-  // - Installation(#installation)
-  // - Usage(#usage)
-  // - License(#license)
-  // - Contributing(#contributing)
-  // - Tests(#tests)
-  // - Questions(#questions)
-
-  // ## Description
-
-  // ${answers.description}
-
-  // ## Installation
-
-  // Please follow the instructions below to clone this project:
-
-  // \`\`\`\
-  // ${answers.installation}
-  // \`\`\`\
-
-  // ## Usage
-  // ${answers.usage}
-
-  // ## License
-  // ${answers.license}
-
-  // ## Contributing
-
-  // ${answers.contributing}
-
-  // ## Tests
-
-  // Please follow the instructions below:
-
-  // \`\`\`\
-  // ${answers.test}
-  // \`\`\`\
-
-  // ## Author
-  // ${answers.fullName}
-
-  // ## Questions
-
-  // Please contact me if you have any queries on my email: ${answers.email};
-
-  // Visit my GitHub profile [here](https://github.com/${answers.userName})`;
-};
-
 const init = async () => {
   const answers = await inquirer.prompt(questions);
   const readMe = generateAnswers(answers);
   fs.writeFileSync("./myReadMe.md", readMe);
+};
+
+// generating the read me answers
+const generateAnswers = (answers) => {
+  {
+    return `# ${answers.title} ![badge](${encodeURI(
+      `https://img.shields.io/badge/${answers.license}-License-green`
+    )});
+
+  ## Contents
+
+   - Description(#description)
+   - Installation(#installation)
+   - Usage(#usage)
+   - License(#license)
+   - Contributing(#contributing)
+   - Tests(#tests)
+   - Questions(#questions)
+
+  ## Description
+
+  ${answers.description}
+
+  ## Installation
+
+  Please follow the instructions below to clone this project:
+
+  \`\`\`\
+  ${answers.installation}
+  \`\`\`\
+
+  ## Usage
+  ${answers.usage}
+
+  ## License
+  ${answers.license}
+
+  ## Contributing
+
+  ${answers.contributing}
+
+  ## Tests
+
+  Please follow the instructions below:
+
+  \`\`\`\
+  ${answers.test}
+  \`\`\`\
+
+  ## Author
+  ${answers.fullName}
+
+  ## Questions
+
+  Please contact me if you have any queries on my email: ${answers.email};
+
+  Visit my GitHub profile [here](https://github.com/${answers.userName})`;
+  }
 };
 
 // call the function

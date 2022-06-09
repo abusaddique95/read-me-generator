@@ -24,7 +24,7 @@ const questions = [
     message: "Please enter your project usage information",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
     message: "Please select the license used for this project",
     choices: ["Mozilla", "MIT", "Apache", "Boost", "N/A"],
@@ -66,13 +66,13 @@ const generateAnswers = (answers) => {
 
   ## Contents
 
-   - Description(#description)
-   - Installation(#installation)
-   - Usage(#usage)
-   - License(#license)
-   - Contributing(#contributing)
-   - Tests(#tests)
-   - Questions(#questions)
+   - [Description](#description)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [License](#license)
+   - [Contributing](#contributing)
+   - [Tests](#tests)
+   - [Questions](#questions)
 
   ## Description
 

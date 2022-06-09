@@ -25,7 +25,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "License",
+    name: "license",
     message: "Please select the license used for this project",
     choices: ["Mozilla", "MIT", "Apache", "Boost", "N/A"],
   },
@@ -41,12 +41,12 @@ const questions = [
   },
   {
     type: "input",
-    name: "Github",
+    name: "github",
     message: "Please enter your Github username",
   },
   {
     type: "input",
-    name: "Email Address",
+    name: "emailAddress",
     message: "Please enter your email address",
   },
 ];
@@ -104,14 +104,14 @@ const generateAnswers = (answers) => {
   ${answers.test}
   \`\`\`\
 
-  ## Author
-  ${answers.fullName}
 
   ## Questions
 
-  Please contact me if you have any queries on my email: ${answers.email};
+  Please contact me if you have any queries on my email: ${
+    answers.emailAddress
+  };
 
-  Visit my GitHub profile [here](https://github.com/${answers.userName})`;
+  Visit my GitHub profile [here](https://github.com/${answers.github}`;
   }
 };
 

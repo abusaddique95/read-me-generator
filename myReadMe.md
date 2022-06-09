@@ -1,44 +1,49 @@
-# new project ![badge](https://img.shields.io/badge/MIT-License-green);
+# Demo ![badge](https://img.shields.io/badge/MIT-License-green);
 
-  ## Contents
+## Contents
 
-   - Description(#description)
-   - Installation(#installation)
-   - Usage(#usage)
-   - License(#license)
-   - Contributing(#contributing)
-   - Tests(#tests)
-   - Questions(#questions)
+- Description(#description)
+- Installation(#installation)
+- Usage(#usage)
+- License(#license)
+- Contributing(#contributing)
+- Tests(#tests)
+- Questions(#questions)
 
-  ## Description
+## Description
 
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-  ## Installation
+## Installation
 
-  Please follow the instructions below to clone this project:
+Please follow the instructions below to clone this project:
 
-  ```  npm install 
-  ```
-  ## Usage
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+```
+npm install
+```
 
-  ## License
-  MIT
+## Usage
 
-  ## Contributing
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## License
 
-  ## Tests
+MIT
 
-  Please follow the instructions below:
+## Contributing
 
-  ```  npm run test
-  ```
+pull request
 
-  ## Questions
+## Tests
 
-  Please contact me if you have any queries on my email: lafhdskufbs@live.com;
+Please follow the instructions below:
 
-  Visit my GitHub profile [here](https://github.com/abusaddique95
+```
+npm run start
+```
+
+## Questions
+
+Please contact me if you have any queries on my email: abusaddique95@live.com;
+
+Visit my GitHub profile (https://github.com/abusaddique95

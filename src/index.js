@@ -82,9 +82,9 @@ const generateAnswers = (answers) => {
 
   Please follow the instructions below to clone this project:
 
-  \`\`\`\
+  \`\`\`
   ${answers.installation}
-  \`\`\`\
+  \`\`\`
 
   ## Usage
   ${answers.usage}
@@ -100,9 +100,9 @@ const generateAnswers = (answers) => {
 
   Please follow the instructions below:
 
-  \`\`\`\
+  \`\`\`
   ${answers.test}
-  \`\`\`\
+  \`\`\`
 
 
   ## Questions

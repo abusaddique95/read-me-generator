@@ -51,4 +51,4 @@ Abu Saddique
 
 Please contact me if you have any queries on my email: abusaddique95@live.com;
 
-Visit my GitHub profile (https://github.com/abusaddique95
+Visit my GitHub profile [here](https://github.com/abusaddique95

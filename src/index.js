@@ -111,7 +111,7 @@ const generateAnswers = (answers) => {
     answers.emailAddress
   };
 
-  Visit my GitHub profile [here](https://github.com/${answers.github}`;
+  Visit my GitHub profile [here](https://github.com/${answers.github})`;
   }
 };
 

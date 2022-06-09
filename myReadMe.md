@@ -1,48 +1,49 @@
 # Demo ![badge](https://img.shields.io/badge/MIT-License-green);
 
-  ## Contents
+## Contents
 
-   - Description(#description)
-   - Installation(#installation)
-   - Usage(#usage)
-   - License(#license)
-   - Contributing(#contributing)
-   - Tests(#tests)
-   - Questions(#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Description
+## Description
 
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-  ## Installation
+## Installation
 
-  Please follow the instructions below to clone this project:
+Please follow the instructions below to clone this project:
 
-  ```
-  npm run start
-  ```
+```
+npm run start
+```
 
-  ## Usage
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+## Usage
 
-  ## License
-  MIT
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-  ## Contributing
+## License
 
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+MIT
 
-  ## Tests
+## Contributing
 
-  Please follow the instructions below:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-  ```
-  npm test
-  ```
+## Tests
 
+Please follow the instructions below:
 
-  ## Questions
+```
+npm test
+```
 
-  Please contact me if you have any queries on my email: abusaddique95@live.com;
+## Questions
 
-  Visit my GitHub profile [here](https://github.com/abusaddique95)
+Please contact me if you have any queries on my email: abusaddique95@live.com;
+
+Visit my GitHub profile [here](https://github.com/abusaddique95)

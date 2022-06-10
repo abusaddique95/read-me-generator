@@ -1,12 +1,31 @@
-## Project Title
+Readme Generator
+
+## Contents
+
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Author](#author)
+- [Contact me](#contact-me)
 
 ## Description
+
+A node.js application that renders a professionally built readme.md file for users to use on their github applications. Users will be asked a series of questions and their answers drawn up in a custom layout.
+
+## Technologies
+
+Node.JS
+
+package.json
+
+inqurier
 
 ## Installation
 
 ```
-git clone "repo name"
-cd readme-generator
 npm install
 ```
 
@@ -16,11 +35,26 @@ npm install
 npm run start
 ```
 
+## License
+
+MIT license
+
 ## Screenshots
 
 Add a video walk through
 
+## Tests
+
+```
+npm run test
+```
+
+## Author
+
+Abu Saddique
+
 ## Contact me
 
 Email me at abusaddique95@live.com
-Visit my portfolio at
+
+Visit my GitHub profile [here](https://github.com/abusaddique95)

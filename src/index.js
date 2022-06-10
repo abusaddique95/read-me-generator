@@ -72,6 +72,7 @@ const generateAnswers = (answers) => {
    - [License](#license)
    - [Contributing](#contributing)
    - [Tests](#tests)
+   - [Author](author)
    - [Questions](#questions)
 
   ## Description
@@ -103,6 +104,8 @@ const generateAnswers = (answers) => {
   \`\`\`
   ${answers.test}
   \`\`\`
+
+  ## Author
 
 
   ## Questions
